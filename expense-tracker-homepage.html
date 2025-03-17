@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpendSmart | Expense Tracker</title>
+  <link rel="stylesheet" href="expense-tracker-styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="hero-background">
+    <div class="circle circle-1"></div>
+    <div class="circle circle-2"></div>
+    <div class="circle circle-3"></div>
+  </div>
+  
+  <header>
+    <nav>
+      <div class="logo">
+        <span class="logo-icon"><i class="fas fa-wallet"></i></span>
+        <span class="logo-text">SpendSmart</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#" class="nav-link">Dashboard</a></li>
+        <li><a href="#" class="nav-link">Transactions</a></li>
+        <li><a href="#" class="nav-link">Reports</a></li>
+        <li><a href="#" class="nav-link">Budget</a></li>
+      </ul>
+      <div class="auth-buttons">
+        <a href="#" class="signin-btn">Sign In</a>
+        <!-- COMMENT: Add sign in page functionality later -->
+        <a href="#" class="signup-btn">Sign Up</a>
+        <!-- COMMENT: Add sign up page functionality later -->
+      </div>
+      <div class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="fade-in">Track Your Expenses<br>With <span class="highlight">Ease</span></h1>
+        <p class="fade-in delay-1">Take control of your finances with our intuitive expense tracker. Monitor your spending, set budgets, and reach your financial goals.</p>
+        <div class="hero-buttons fade-in delay-2">
+          <a href="#" class="primary-btn">Get Started <i class="fas fa-arrow-right"></i></a>
+          <!-- COMMENT: Link to sign up flow later -->
+          <a href="#" class="secondary-btn">Watch Demo <i class="fas fa-play"></i></a>
+          <!-- COMMENT: Add demo video modal later -->
+        </div>
+      </div>
+      <div class="hero-image fade-in delay-1">
+        <img src="/api/placeholder/500/400" alt="Expense tracker dashboard preview">
+      </div>
+    </section>
+
+    <section class="features">
+      <h2 class="section-title">Smart Features for Better Finance</h2>
+      <div class="feature-cards">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-chart-pie"></i>
+          </div>
+          <h3>Expense Analytics</h3>
+          <p>Visualize your spending patterns with beautiful charts and insights.</p>
+          <a href="#" class="feature-link">Learn more <i class="fas fa-chevron-right"></i></a>
+          <!-- COMMENT: Add analytics page later -->
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-bullseye"></i>
+          </div>
+          <h3>Budget Planning</h3>
+          <p>Set smart budgets for different categories and track your progress.</p>
+          <a href="#" class="feature-link">Learn more <i class="fas fa-chevron-right"></i></a>
+          <!-- COMMENT: Add budget planning page later -->
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-bell"></i>
+          </div>
+          <h3>Smart Alerts</h3>
+          <p>Get notified when you're approaching budget limits or about unusual spending.</p>
+          <a href="#" class="feature-link">Learn more <i class="fas fa-chevron-right"></i></a>
+          <!-- COMMENT: Add alerts settings page later -->
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3>Mobile Access</h3>
+          <p>Track expenses on the go with our responsive mobile application.</p>
+          <a href="#" class="feature-link">Learn more <i class="fas fa-chevron-right"></i></a>
+          <!-- COMMENT: Add mobile app info page later -->
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="stat-container">
+        <div class="stat-item">
+          <div class="stat-number" data-count="5000">0</div>
+          <div class="stat-label">Happy Users</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-count="15">0</div>
+          <div class="stat-label">Days Average Savings</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-count="98">0</div>
+          <div class="stat-label">Satisfaction Rate</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <h2 class="section-title">What Our Users Say</h2>
+      <div class="testimonial-slider">
+        <div class="testimonial-slide active">
+          <div class="testimonial-content">
+            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+            <p>"SpendSmart completely changed how I manage my finances. I've saved over $2000 in just 3 months!"</p>
+            <div class="testimonial-author">
+              <div class="author-name">Sarah Johnson</div>
+              <div class="author-title">Freelance Designer</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-slide">
+          <div class="testimonial-content">
+            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+            <p>"The visual reports make it so easy to see where my money is going. No more end-of-month surprises!"</p>
+            <div class="testimonial-author">
+              <div class="author-name">Michael Rodriguez</div>
+              <div class="author-title">Software Engineer</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-slide">
+          <div class="testimonial-content">
+            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+            <p>"Setting up budgets and getting alerts has helped me break my impulse shopping habits. Highly recommend!"</p>
+            <div class="testimonial-author">
+              <div class="author-name">Jessica Taylor</div>
+              <div class="author-title">Marketing Specialist</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-controls">
+        <button class="testimonial-control active" data-index="0"></button>
+        <button class="testimonial-control" data-index="1"></button>
+        <button class="testimonial-control" data-index="2"></button>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="cta-content">
+        <h2>Ready to Take Control of Your Finances?</h2>
+        <p>Join thousands of users who've transformed their financial habits with SpendSmart.</p>
+        <a href="#" class="primary-btn cta-btn">Start For Free <i class="fas fa-arrow-right"></i></a>
+        <!-- COMMENT: Add sign up flow later -->
+      </div>
+      <div class="cta-image">
+        <img src="/api/placeholder/400/300" alt="Financial freedom illustration">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <span class="logo-icon"><i class="fas fa-wallet"></i></span>
+        <span class="logo-text">SpendSmart</span>
+        <p>Your path to financial freedom</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-column">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Mobile App</a></li>
+            <li><a href="#">API</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Guides</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Community</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Press</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Connect</h4>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 SpendSmart. All rights reserved.</p>
+      <div class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="expense-tracker-script.js"></script>
+</body>
+</html>
